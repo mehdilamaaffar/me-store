@@ -1,14 +1,21 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "services.scss";
+@import "portfolio.scss";
+@import "bootstrap-overrides.scss";
 
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+.img-crop {
+    height: 500px;
+}
 
-// Variables
-@import "variables";
+.portfolio-box {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
-
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+#contact {
+    margin-bottom: 500px;
 }
