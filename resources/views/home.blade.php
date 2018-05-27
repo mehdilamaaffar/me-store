@@ -70,6 +70,15 @@
 
     <section class="p-0" id="example">
         <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h1 class="text-uppercase">
+                       <div class="ba-heading">Before / After</div>
+                    </h1>
+                    <hr>
+                </div>
+            </div>
+
             <div class="row no-gutters popup-gallery">
                 <div class="col-lg-6 col-sm-12">
                     <div class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
