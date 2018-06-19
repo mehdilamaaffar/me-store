@@ -89,3 +89,16 @@
   });
 
 })(jQuery); // End of use strict
+
+(function ($) {
+    "use strict"; // Start of use strict
+
+    function addClick() {
+        $.post({
+            url: '/api/click',
+            data: {
+                '_token': csrf_token,
+            }
+        })
+    }
+})(jQuery);
